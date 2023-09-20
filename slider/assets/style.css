@@ -117,6 +117,7 @@ h6 {
   overflow: hidden;
   position: relative;
   justify-content: center;
+  order: 1;
 }
 
 .image_cat {
@@ -139,6 +140,7 @@ h6 {
 .input_slider {
 }
 .text_container {
+  order: 3;
   display: flex;
   align-content: center;
   height: 2rem;
@@ -161,9 +163,10 @@ h6 {
   font-size: 120%;
   font-weight: bold;
   font-style: italic;
-  transition: all ease 0.5s, 
+  transition: all ease 1s;
 }
 .label_container {
+  align-self: center;
   right: 0;
   width: 20%;
   position: absolute;
@@ -261,6 +264,12 @@ input {
 @media (max-width: 800px) {
   .main_container {
     width: 70%;
+  }
+  .label_container {
+    position: static;
+    order: 2;
+    right: auto;
+    bottom: auto;
   }
 }
 
