@@ -222,7 +222,6 @@ h6 {
 #s5:checked ~ .slider_container > .img5 {
   opacity: 1;
   z-index: 6;
-  transform: scale(1);
 }
 
 #s1:checked ~ .text_container > .text1,
@@ -232,7 +231,6 @@ h6 {
 #s5:checked ~ .text_container > .text5 {
   opacity: 1;
   z-index: 6;
-  transform: scale(1);
 }
 input {
   display: none;
